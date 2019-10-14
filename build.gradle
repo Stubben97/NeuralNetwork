@@ -25,5 +25,8 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
+    compile group: 'org.tensorflow', name: 'tensorflow', version: '1.14.0'
+    
 }
 
